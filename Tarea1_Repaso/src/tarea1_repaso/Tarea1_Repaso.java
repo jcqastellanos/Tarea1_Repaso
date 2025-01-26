@@ -174,7 +174,7 @@ public class Tarea1_Repaso {
         boolean encontrado = recu.BusquedaBinaria(Arreglo, Numero);
 
         if (!encontrado) {
-            System.out.println("no encontrado :c");
+            System.out.println("no encontrado");
             JOptionPane.showMessageDialog(null, "Su numero no fue encontrado en el arreglo");
 
         } else {
